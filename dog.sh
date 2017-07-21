@@ -2,6 +2,6 @@
 
 . ./animal.sh
 
-function gav {
-    echo "GAV!"
+function woof {
+    echo "Woof!"
 }

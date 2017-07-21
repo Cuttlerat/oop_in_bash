@@ -1,7 +1,7 @@
 #!/bin/bash
 
-function init_mops {
-    echo ". ./mops.sh"
+function init_pug {
+    echo ". ./pug.sh"
 }
 
 
@@ -9,16 +9,17 @@ function init_dog {
     echo ". ./dog.sh"
 }
 
-charlie=$( init_mops )
-echo "$( $charlie && gav )"
+charlie=$( init_pug )
+echo "$( $charlie && woof )"
 labrador=$( init_dog )
-echo "$( $labrador && gav && live )"
+echo "$( $labrador && woof && live )"
 
-gav
+woof
 
 ### OUTPUT ###
 #
-# ASMDAKDMAFAKLF!
-# GAV! I AM ALIVE!
-# ./test.sh: строка 17: gav: команда не найдена
+# *pug noises*
+# GAV!
+# I AM ALIVE!
+# ./test.sh: строка 17: woof: команда не найдена
 #
