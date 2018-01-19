@@ -2,7 +2,7 @@
 
 # Class pug
 
-# Adding a parent, who also have a parent
+# Add a parent, who also have a parent
 . ./dog.sh
 
 # Polymorphism

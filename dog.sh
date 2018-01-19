@@ -2,7 +2,7 @@
 
 # Class dog 
 
-# Adding a parent
+# Add a parent
 . ./animal.sh
 
 function woof {
